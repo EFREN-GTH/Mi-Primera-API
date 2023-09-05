@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>DummySHOP</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"><h1 class="title">DummyMarket</h1></a>
+    </header>
+    <div class="container">
+        <section class="search">
+            <img src="assets/search.svg" alt="">
+            <input type="text" id="search" name="search" placeholder="Buscar productos...">
+        </section>
+        <div class="menu-container">
+            <div class="menu">
+                <a href="#" class="menu-link">
+                    <img src="assets/arrow.svg" alt="" class="menu-icon">
+                    <span id="cat-title">Todas Las Categorías</span>
+                    <input type="checkbox" class="menu-check">
+                </a>
+                <div class="menu-content">
+                    <ul>
+                        <li>
+                            <a href="#" data-category="all">Todas Las Categorías</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="cards"></section>
+    <footer>
+        <a href="#">&copy; Efren Ojeda 2023</a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
